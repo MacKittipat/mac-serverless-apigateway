@@ -1,0 +1,17 @@
+{
+  "name": "mac-serverless-apigateway",
+  "version": "1.0.0",
+  "description": "1. Install AWS CLI 2. Create IAM user with Access keys 3. Configure AWS CLI with `aws configure` and enter accessKey/secret",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.2.0"
+  }
+}
